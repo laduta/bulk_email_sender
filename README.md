@@ -16,7 +16,7 @@ A simple Python script to send personalized bulk emails using Gmail SMTP. Reads 
 
 ## 🗂️ Project Structure
 
-auto_emailer/
+bulk_email_sender/
 
 ├── auto_emailer.py          
 ├── recipients.csv           
@@ -44,7 +44,7 @@ pip install pandas
 
 2. Update your credentials in auto_emailer.py
   EMAIL_ADDRESS = "your_email@gmail.com"
-  EMAIL_PASSWORD = "your_app_password"  # Use Gmail App Password
+  EMAIL_PASSWORD = "your_app_password"  #Do not use your normal Gmail password, Use Gmail App Password
 
 3. Run the script
   python auto_emailer.py
