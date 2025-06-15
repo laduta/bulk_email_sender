@@ -1,0 +1,6 @@
+Hi {name},
+
+This is a test email sent using Python.
+
+Best regards,
+Abubakar Jibrin
